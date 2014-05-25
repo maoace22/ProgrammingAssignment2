@@ -30,3 +30,5 @@ cacheSolve <- function(x, ...)
         mymatrix <- solve(data, ...)
         x$setinv(mymatrix)
         mymatrix #it will take the inverse matrix calculated
+
+}
